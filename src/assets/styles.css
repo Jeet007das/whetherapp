@@ -1,0 +1,108 @@
+/* .container {
+	width: 100%;
+} */
+
+.view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card_view {
+	width: 50%;
+	box-shadow: 0 1px 8px 1px rgba(0, 0, 0, 0.12);
+	border-radius: 6px;
+	padding: 0.2%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	margin-bottom: 1%;
+	cursor: pointer;
+}
+
+.card_checkBox {
+	display: flex;
+	flex-direction: row;
+}
+
+.checkBox {
+	display: flex;
+	align-items: flex-start;
+	width: 2.5vh;
+	height: 2.5vh;
+	border: 1px dotted rgb(16, 150, 212);
+	border-radius: 4px;
+	margin: 0.5%;
+}
+
+.cityName {
+	font-weight: bold;
+	color: #000000;
+	margin-left: 2%;
+}
+
+.btn_view {
+	background-color: #29f0e6; /* Green */
+	border: none;
+	border-radius: 4px;
+	color: white;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+
+.whetherInfo {
+	width: 50%;
+	margin-bottom: 1%;
+	padding: 0.5%;
+	border-radius: 6px;
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+}
+
+.whetherInfo_city,
+.whetherInfo_details {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.name,
+.date {
+	font-size: 3vh;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.temperature {
+	font-size: 8vh;
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.temperature_img {
+	width: 30%;
+}
+
+.image {
+	width: 30%;
+	height: 30%;
+}
+
+.listIcon {
+	width: 10%;
+	height: 10%;
+}
+
+.forecastList {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
