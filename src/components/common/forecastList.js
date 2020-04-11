@@ -15,7 +15,9 @@ export default function ForecastList(props) {
 							<div className="listDate">
 								{formatDateWithTime(new Date(value.date * 1000))}
 							</div>
-							<div className="temp">{value.low} °C</div>
+							<div className="temp">
+								{value.low}° / {value.high}°
+							</div>
 							<div className="image">
 								<WhetherIcon condition={value.text} imageClass="listIcon" />
 							</div>
