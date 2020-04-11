@@ -16,7 +16,7 @@ function CityCard(props) {
 
 	useEffect(() => {
 		props.setCities(cityList);
-		setTimeout(() => setCityList(props.whetherInfo), 0);
+		setCityList(props.whetherInfo);
 	}, [props]);
 
 	const selectCity = (cityObj) => {
